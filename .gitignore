@@ -1,0 +1,41 @@
+# --- Local, confidential settings (drill hole IDs) ---
+config.json
+
+# --- Never commit project data (NDA) ---
+# Raw photos and images
+*.cr2
+*.CR2
+*.cr3
+*.CR3
+*.jpg
+*.JPG
+*.jpeg
+*.tif
+*.tiff
+*.png
+# Journals and documents
+*.xlsm
+*.xlsx
+*.xls
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.odt
+# Generated outputs
+*.csv
+sha256sums.txt
+inventory_run_info.json
+gold_core_dataset/
+raw/
+processed_images/
+annotations/
+metadata/
+quality_control/
+
+# --- Python / OS clutter ---
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini

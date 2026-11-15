@@ -1,0 +1,9 @@
+{
+  "drillholes": {
+    "HOLE_A": ["HOLE_A"],
+    "HOLE_B": ["HOLE_B", "HOLE-B"]
+  },
+  "box_patterns": [
+    "(?<![a-zа-яё])(?:box|bx|ящик|ящ)[\\s_\\-\\.#№]*0*(\\d{1,4})(?!\\d)"
+  ]
+}
